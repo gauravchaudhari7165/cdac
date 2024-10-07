@@ -1,0 +1,12 @@
+Name: gaurav
+Roll No: 21
+Science: 100.0
+Maths: 96.0
+English: 100.0
+Average: 98.66666666666667
+Name: gaurav
+Roll No: 21
+Science: 100.0
+Maths: 96.0
+English: 100.0
+Average: 98.67
