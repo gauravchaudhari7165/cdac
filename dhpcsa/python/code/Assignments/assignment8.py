@@ -46,17 +46,5 @@ def manage_votes():
 
 manage_votes()
 
-# Assignment 5: Daily Temperature Tracker
-# Create a dictionary to store and manipulate daily temperature data for a week.
-# Write a program that stores daily high temperatures for a week in a dictionary, where keys are days of the week and values are temperatures. The program should:
-# Allow the user to update the temperature for any day.
-# Calculate the average temperature for the week.
-# Example Input: {'Monday': 30, 'Tuesday': 32, 'Wednesday': 29, 'Thursday': 31, 'Friday': 30, 'Saturday': 28, 'Sunday': 27}
-# Expected Output: Average temperature: 29.57°C.
 
-
-temperatures = {'Monday': 30, 'Tuesday': 32, 'Wednesday': 29, 'Thursday': 31, 'Friday': 30, 'Saturday': 28, 'Sunday': 27}
-total = sum(temperatures.values())
-average = total / len(temperatures)
-print(f"Average temperature: {average}°C")
 
