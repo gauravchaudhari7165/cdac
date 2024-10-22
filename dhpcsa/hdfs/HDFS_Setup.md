@@ -1,4 +1,14 @@
+
 # HDFS User and Directory Setup
+    Create a user by name ds1 
+    Create a directory by name ds1-data in HDFS 
+    Make ds1 user owner of the above directory 
+    Login as ds1 user create a file by name wordlist and copy it to HDFS 
+    Create a group by name clients 
+    Create Users tom and jerry and add them to clients group 
+    Create a directory by name Disney on HDFS 
+    Make sure users tom and jerry an upload files to Disney folder
+
 
 ## Steps to Create User and Directory in HDFS
 
