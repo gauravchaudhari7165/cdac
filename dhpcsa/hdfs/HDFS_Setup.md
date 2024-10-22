@@ -88,3 +88,26 @@ exit
 ### 12. Show the content of the append file
 ```sh
 hdfs dfs -cat /ds1.data/wordlist.txt
+```
+
+#
+    Login as tom user create a folder by name 
+    bak in linux Try to copy file upoladed by ds1 
+    user from hdfs to back local folder
+
+
+
+### 13. Login as `tom` User
+```sh
+su - tom
+```
+
+### 14. Create a Folder `bak` in Linux
+```sh
+mkdir ~/bak
+```
+
+### 15. Copy File Uploaded by `ds1` User from HDFS to `bak` Local Folder
+```sh
+hdfs dfs -get /ds1-data/wordlist.txt ~/bak/
+```
