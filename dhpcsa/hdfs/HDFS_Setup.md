@@ -66,5 +66,25 @@ su - tom
 hdfs dfs -put tom.txt /Disney
 ```
 
-## Summary
-This guide provides the steps to create users, directories, and set permissions in HDFS to ensure proper access control and file management.
+#
+    Login as ds1 user.
+    Create a file hello.txt Type 3 lines into it 
+    Then append this data to earlier file uploaded to hdfs by ds1
+
+### 9. Login as `ds1` User 
+```sh
+su - ds1
+```
+### 10. Create a File `hello.txt`
+```sh
+nano hello.txt
+```
+
+### 11. Append ItsContent to `wordlist.txt` in HDFS
+```sh
+hdfs dfs -appendToFile hello.txt /ds1-data/wordlist.txt
+exit
+```
+### 12. Show the content of the append file
+```sh
+hdfs dfs -cat /ds1.data/wordlist.txt
